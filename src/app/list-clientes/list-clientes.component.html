@@ -1,0 +1,7 @@
+<h3>Clientes</h3>
+
+<div>
+  <ul *ngFor="let item of clientes">
+    <li>{{item.nome}} <button style="color: red;" (click)="remove(item)">x</button> </li>
+  </ul>
+</div>

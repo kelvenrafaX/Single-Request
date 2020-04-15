@@ -1,0 +1,5 @@
+<h3>Página de Clientes</h3>
+
+<app-add-clientes [clientes]="clientes" (eventAdd)="add($event)"></app-add-clientes>
+
+<app-list-clientes [clientes]="clientes" (eventRemove)="remove($event)"></app-list-clientes>
